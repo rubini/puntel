@@ -1,0 +1,2317 @@
+PCBNEW-LibModule-V1  Mon Jun 26 20:23:18 2017
+# encoding utf-8
+Units mm
+$INDEX
+BUTTON
+USB-A-smd
+USB_MINI_B-SMD
+conn-10x1.27
+conn-3.5mm
+conn-3.5mm-fra
+conn-3.5mm-wurt
+conn-3.5mm-wurt-3p
+conn-5.08mm
+db9-rubi
+flat10
+flat10-shell
+flat16-shell
+flat6
+flat6-shell
+herma-2p
+strip-10
+strip-11
+strip-12
+strip-2
+strip-2-2mm-smd
+strip-2-2mm-smd-h
+strip-2x2
+strip-2x2-smd
+strip-3
+strip-3-2mm-smd
+strip-4
+strip-4-2mm-smd
+strip-5
+strip-6
+strip-7
+strip-8
+strip-9
+strip4-pth-2mm
+usb-a-vertical
+usb-mini-b-vertical
+$EndINDEX
+$MODULE BUTTON
+Po 0 0 0 15 56F6CDEA 00000000 ~~
+Li BUTTON
+Sc 0
+AR /56DCA984
+Op 0 0 0
+T0 1.27 -3.81 0.7 0.7 0 0.14 N V 21 N "SW1"
+T1 0 0 1.524 1.524 0 0.3048 N I 21 N "BUTTON"
+DS -2.99974 -2.99974 2.99974 -2.99974 0.381 21
+DS 2.99974 -2.99974 2.99974 2.99974 0.381 21
+DS 2.99974 2.99974 -2.99974 2.99974 0.381 21
+DS -2.99974 2.99974 -2.99974 -2.99974 0.381 21
+$PAD
+Sh "1" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "/RESET"
+Po -3.2512 -2.25044
+$EndPAD
+$PAD
+Sh "2" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "/RESET"
+Po 3.2512 -2.25044
+$EndPAD
+$PAD
+Sh "3" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po -3.2512 2.25044
+$EndPAD
+$PAD
+Sh "4" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 3.2512 2.25044
+$EndPAD
+$EndMODULE BUTTON
+$MODULE USB-A-smd
+Po 0 0 0 15 59515111 00000000 ~~
+Li USB-A-smd
+Sc 0
+AR 
+Op 0 0 0
+T0 0 12 1 1 0 0.15 N V 21 N "USB-A-smd"
+T1 0 -6.7 1 1 0 0.15 N V 21 N "VAL**"
+DS 6.55 9.65 -6.55 9.65 0.15 21
+DS -6.55 -4.05 -6.55 9.95 0.15 21
+DS -6.55 9.95 6.55 9.95 0.15 21
+DS 6.55 -4.05 6.55 9.95 0.15 21
+DS -6.55 -4.05 6.55 -4.05 0.15 21
+$PAD
+Sh "" C 1.3 1.3 0 0 0
+Dr 1.3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 2.5 0
+$EndPAD
+$PAD
+Sh "" C 1.3 1.3 0 0 0
+Dr 1.3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -2.5 0
+$EndPAD
+$PAD
+Sh "1" R 0.9 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.5 -3.7
+$EndPAD
+$PAD
+Sh "2" R 0.9 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -3.7
+$EndPAD
+$PAD
+Sh "3" R 0.9 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 -3.7
+$EndPAD
+$PAD
+Sh "4" R 0.9 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.5 -3.7
+$EndPAD
+$PAD
+Sh "5" R 2.5 5.15 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -7.25 -1.75
+$EndPAD
+$PAD
+Sh "6" R 2.5 5.15 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.25 -1.75
+$EndPAD
+$EndMODULE USB-A-smd
+$MODULE USB_MINI_B-SMD
+Po 0 0 0 15 56F6CC70 00000000 ~~
+Li USB_MINI_B-SMD
+Cd USB Mini-B 5-pin SMD connector
+Kw USB, Mini-B, connector
+Sc 0
+AR /56E16CF5
+Op 0 0 0
+T0 0 6.90118 1.016 1.016 0 0.2032 N V 21 N "J25"
+T1 0 -7.0993 1.016 1.016 0 0.2032 N I 21 N "USB-MINI"
+DS -3.59918 -3.85064 -3.59918 3.85064 0.381 21
+DS -4.59994 -3.85064 -4.59994 3.85064 0.381 21
+DS -4.59994 3.85064 4.59994 3.85064 0.381 21
+DS 4.59994 3.85064 4.59994 -3.85064 0.381 21
+DS 4.59994 -3.85064 -4.59994 -3.85064 0.381 21
+$PAD
+Sh "1" R 2.50124 0.50038 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.54932 -1.6002
+$EndPAD
+$PAD
+Sh "2" R 2.50124 0.50038 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.54932 -0.8001
+$EndPAD
+$PAD
+Sh "3" R 2.50124 0.50038 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.54932 0
+$EndPAD
+$PAD
+Sh "4" R 2.50124 0.50038 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.54932 0.8001
+$EndPAD
+$PAD
+Sh "5" R 2.50124 0.50038 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "GND"
+Po 3.54932 1.6002
+$EndPAD
+$PAD
+Sh "6" R 2.49936 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.35026 -4.45008
+$EndPAD
+$PAD
+Sh "7" R 2.49936 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.14884 -4.45008
+$EndPAD
+$PAD
+Sh "8" R 2.49936 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.35026 4.45008
+$EndPAD
+$PAD
+Sh "9" R 2.49936 1.99898 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.14884 4.45008
+$EndPAD
+$PAD
+Sh "" C 0.89916 0.89916 0 0 0
+Dr 0.89916 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0.8509 -2.19964
+$EndPAD
+$PAD
+Sh "" C 0.89916 0.89916 0 0 0
+Dr 0.89916 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0.8509 2.19964
+$EndPAD
+$EndMODULE USB_MINI_B-SMD
+$MODULE conn-10x1.27
+Po 0 0 0 15 57EA838B 00000000 ~~
+Li conn-10x1.27
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.35 1 1 0 0.15 N V 21 N "conn-10x1.27"
+T1 0 6.35 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.54 -5.08 2.54 -5.08 0.07874 21
+DS 2.54 -5.08 2.54 5.08 0.07874 21
+DS 2.54 5.08 -2.54 5.08 0.07874 21
+DS -2.54 5.08 -2.54 -5.08 0.07874 21
+$PAD
+Sh "1" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 -2.54
+$EndPAD
+$PAD
+Sh "2" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 -2.54
+$EndPAD
+$PAD
+Sh "3" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "4" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "6" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "8" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "9" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.54 2.54
+$EndPAD
+$PAD
+Sh "10" R 2.54 0.635 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.54 2.54
+$EndPAD
+$EndMODULE conn-10x1.27
+$MODULE conn-3.5mm
+Po 0 0 0 15 56F545DB 00000000 ~~
+Li conn-3.5mm
+Sc 0
+AR /55EBE9EB
+Op 0 0 0
+T0 -4.5 2 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 -4.064 -2.032 0.7 0.7 900 0.14 N I 21 N "3.5mm"
+DS 3.6 3.5 -3.4 3.5 0.15 21
+DS -3.4 -3.5 3.6 -3.5 0.15 21
+DS -3.4 -3.5 -3.4 3.5 0.15 21
+DS 3.6 -3.5 3.6 3.5 0.15 21
+DS 1.5 -1.75 2.75 -1.75 0.15 21
+DS 1.5 1.75 2.75 1.75 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.75
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.75
+$EndPAD
+$EndMODULE conn-3.5mm
+$MODULE conn-3.5mm-fra
+Po 0 0 0 15 59478382 00000000 ~~
+Li conn-3.5mm-fra
+Sc 0
+AR /56161A0D
+Op 0 0 0
+T0 -2.4 3.2 0.7 0.7 0 0.14 N V 21 N "J5"
+T1 2.8 -4.6 0.7 0.7 0 0.14 N V 21 N "CONN-3.5MM-wurth"
+DS -1.4 -3.6 -1.4 3.6 0.15 21
+DS -1.4 3.6 8 3.6 0.15 21
+DS 8 3.6 8 -3.6 0.15 21
+DS 8 -3.6 -1.4 -3.6 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.75
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.75
+$EndPAD
+$EndMODULE conn-3.5mm-fra
+$MODULE conn-3.5mm-wurt
+Po 0 0 0 15 56F55E8A 00000000 ~~
+Li conn-3.5mm-wurt
+Sc 0
+AR /56161A0D
+Op 0 0 0
+T0 -5.588 3.048 0.7 0.7 0 0.14 N V 21 N "J5"
+T1 -0.6 -4.4 0.7 0.7 0 0.14 N V 21 N "CONN-3.5MM-wurth"
+DS -4.4 3.5 2.8 3.5 0.15 21
+DS -4.4 -3.5 2.8 -3.5 0.15 21
+DS -4.4 -3.5 -4.4 3.5 0.15 21
+DS 2.8 -3.5 2.8 3.5 0.15 21
+DS 1.5 -1.75 2.45 -1.75 0.15 21
+DS 1.5 1.75 2.45 1.75 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.75
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.75
+$EndPAD
+$EndMODULE conn-3.5mm-wurt
+$MODULE conn-3.5mm-wurt-3p
+Po 0 0 0 15 58B49BA6 00000000 ~~
+Li conn-3.5mm-wurt-3p
+Sc 0
+AR /56161A0D
+Op 0 0 0
+T0 -5.588 3.048 0.7 0.7 0 0.14 N V 21 N "J5"
+T1 -0.55 -6.25 0.7 0.7 0 0.14 N I 21 N "CONN-3.5MM-wurth-3p"
+DS 1.5 3.5 2.45 3.5 0.15 21
+DS -4.4 1.75 -4.4 5.25 0.15 21
+DS -4.4 5.25 2.8 5.2 0.15 21
+DS 2.8 5.2 2.8 1.75 0.15 21
+DS -4.4 -5.25 2.8 -5.25 0.15 21
+DS -4.4 -5.25 -4.4 1.75 0.15 21
+DS 2.8 -5.25 2.8 1.75 0.15 21
+DS 1.5 -3.5 2.45 -3.5 0.15 21
+DS 1.5 0 2.45 0 0.15 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -3.5
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" R 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 3.5
+$EndPAD
+$EndMODULE conn-3.5mm-wurt-3p
+$MODULE conn-5.08mm
+Po 0 0 0 15 56F54645 00000000 ~~
+Li conn-5.08mm
+Sc 0
+AR /55E95694
+Op 0 0 0
+T0 -6.096 -4.064 0.7 0.7 0 0.14 N V 21 N "J2"
+T1 -5.08 3.302 0.7 0.7 900 0.14 N I 21 N "5.08mm"
+DS 1.524 -2.54 3.048 -2.54 0.15 21
+DS 1.524 2.54 3.048 2.54 0.15 21
+DS -4.191 -5.08 3.81 -5.08 0.381 21
+DS 3.81 -5.08 3.81 5.08 0.381 21
+DS 3.81 5.08 -4.191 5.08 0.381 21
+DS -4.191 5.08 -4.191 -4.953 0.381 21
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 2.54
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 1.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.54
+$EndPAD
+$EndMODULE conn-5.08mm
+$MODULE db9-rubi
+Po 0 0 0 15 56F55BF0 00000000 ~~
+Li db9-rubi
+Sc 0
+AR /561AE344
+Op 0 0 0
+T0 15.494 6.858 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 -12.7 7.366 0.7 0.7 0 0.14 N V 21 N "D-SUB-rubi"
+DS -16 -6 16 -6 0.3 21
+DS 16 -6 16 6 0.3 21
+DS 16 6 -16 6 0.3 21
+DS -16 6 -16 -6 0.3 21
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.79 -1.42
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.02 -1.42
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.25 -1.42
+$EndPAD
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.52 -1.42
+$EndPAD
+$PAD
+Sh "5" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.29 -1.42
+$EndPAD
+$PAD
+Sh "6" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.405 1.42
+$EndPAD
+$PAD
+Sh "7" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.635 1.42
+$EndPAD
+$PAD
+Sh "8" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.135 1.42
+$EndPAD
+$PAD
+Sh "9" C 1.6 1.6 0 0 0
+Dr 1.1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.905 1.42
+$EndPAD
+$PAD
+Sh "10" C 5 5 0 0 0
+Dr 3.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 0
+$EndPAD
+$PAD
+Sh "10" C 5 5 0 0 0
+Dr 3.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.5 0
+$EndPAD
+$EndMODULE db9-rubi
+$MODULE flat10
+Po 0 0 0 15 56F53B49 00000000 ~~
+Li flat10
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 0
+AR /55E95899
+Op 0 0 0
+T0 -5.65 -3.88 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 0 -3.81 1 1 0 0.2 N I 21 N "flat10"
+DS -6.858 0.254 -6.858 3.048 0.15 21
+DS -6.858 3.048 -4.318 3.048 0.15 21
+DS -6.35 -2.54 6.35 -2.54 0.3048 21
+DS 6.35 -2.54 6.35 2.54 0.3048 21
+DS 6.35 2.54 -6.35 2.54 0.3048 21
+DS -6.35 2.54 -6.35 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE flat10
+$MODULE flat10-shell
+Po 0 0 0 15 56F55D11 00000000 ~~
+Li flat10-shell
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 0
+AR /561D72C8
+Op 0 0 0
+T0 -11.75 4.25 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 6.858 5.334 0.7 0.7 0 0.14 N V 21 N "flat10-shell"
+DS 10.16 4.445 2.54 4.445 0.3 21
+DS -10.16 4.445 -2.54 4.445 0.3 21
+DS -10.16 4.445 -10.16 -4.445 0.3 21
+DS -10.16 -4.445 10.16 -4.445 0.3 21
+DS 10.16 -4.445 10.16 4.445 0.3 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE flat10-shell
+$MODULE flat16-shell
+Po 0 0 0 15 56F55B54 00000000 ~~
+Li flat16-shell
+Cd Double rangee de contacts 2 x 8 pins
+Kw CONN
+Sc 0
+AR /561A9884
+Op 0 0 0
+T0 13.462 5.588 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 -10.668 5.588 0.7 0.7 0 0.14 N V 21 N "flat16-shell"
+DS -13.97 4.445 -13.97 -4.445 0.3 21
+DS -13.97 -4.445 13.97 -4.445 0.3 21
+DS 13.97 -4.445 13.97 4.445 0.3 21
+DS 13.97 4.445 2.54 4.445 0.3 21
+DS -13.97 4.445 -2.54 4.445 0.3 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "13" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 1.27
+$EndPAD
+$PAD
+Sh "14" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 -1.27
+$EndPAD
+$PAD
+Sh "15" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 1.27
+$EndPAD
+$PAD
+Sh "16" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_8x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE flat16-shell
+$MODULE flat6
+Po 0 0 0 15 56F53C10 00000000 ~~
+Li flat6
+Cd Double rangee de contacts 2 x 3 pins
+Kw CONN
+Sc 0
+AR /55E95899
+Op 0 0 0
+T0 -3.81 -3.81 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 0 -3.81 1 1 0 0.2 N I 21 N "flat6"
+DS -3.81 2.54 3.81 2.54 0.3048 21
+DS -3.81 -2.54 3.81 -2.54 0.3048 21
+DS -4.318 0.254 -4.318 3.048 0.15 21
+DS -4.318 3.048 -1.778 3.048 0.15 21
+DS 3.81 -2.54 3.81 2.54 0.3048 21
+DS -3.81 2.54 -3.81 -2.54 0.3048 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE flat6
+$MODULE flat6-shell
+Po 0 0 0 15 56F55A99 00000000 ~P
+Li flat6-shell
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /55EAA08D
+Op 0 0 0
+T0 6.985 5.715 0.7 0.7 0 0.14 N V 21 N "J?"
+T1 -4.572 5.588 0.7 0.7 0 0.14 N V 21 N "flat6-shell"
+DS -7.62 4.445 -2.54 4.445 0.3 21
+DS -7.62 4.445 -7.62 -4.445 0.3 21
+DS -7.62 -4.445 7.62 -4.445 0.3 21
+DS 7.62 -4.445 7.62 4.445 0.3 21
+DS 7.62 4.445 2.54 4.445 0.3 21
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE flat6-shell
+$MODULE herma-2p
+Po 0 0 0 15 58EA8721 00000000 ~~
+Li herma-2p
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3 1 1 0 0.15 N V 21 N "herma-2p"
+T1 0 10 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 0 4 0 0.1 21
+DS 4 0 4 7.5 0.1 21
+DS 4 7.5 -4 7.5 0.1 21
+DS -4 7.5 -4 0 0.1 21
+$PAD
+Sh "1" R 2 7.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 4.55
+$EndPAD
+$PAD
+Sh "2" R 2 7.1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 4.55
+$EndPAD
+$EndMODULE herma-2p
+$MODULE strip-10
+Po 0 0 0 15 56F6B017 00000000 ~~
+Li strip-10
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-10"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 10.16 -1.27 12.7 -1.27 0.15 21
+DS 12.7 -1.27 12.7 1.27 0.15 21
+DS 12.7 1.27 8.89 1.27 0.15 21
+DS 7.62 -1.27 10.16 -1.27 0.15 21
+DS 10.16 1.27 6.35 1.27 0.15 21
+DS 5.08 -1.27 7.62 -1.27 0.15 21
+DS 7.62 1.27 5.08 1.27 0.15 21
+DS 2.54 -1.27 5.08 -1.27 0.15 21
+DS 5.08 1.27 2.54 1.27 0.15 21
+DS 0 -1.27 2.54 -1.27 0.15 21
+DS 2.54 1.27 0 1.27 0.15 21
+DS -2.54 -1.27 0 -1.27 0.15 21
+DS 0 1.27 -2.54 1.27 0.15 21
+DS -5.08 -1.27 -2.54 -1.27 0.15 21
+DS -2.54 1.27 -5.08 1.27 0.15 21
+DS -7.62 -1.27 -5.08 -1.27 0.15 21
+DS -5.08 1.27 -7.62 1.27 0.15 21
+DS -10.414 -1.524 -12.954 -1.524 0.15 21
+DS -12.954 -1.524 -12.954 1.524 0.15 21
+DS -12.954 1.524 -10.414 1.524 0.15 21
+DS -7.62 1.27 -12.7 1.27 0.15 21
+DS -12.7 1.27 -12.7 -1.27 0.15 21
+DS -12.7 -1.27 -7.62 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$EndMODULE strip-10
+$MODULE strip-11
+Po 0 0 0 15 56F6B03A 00000000 ~~
+Li strip-11
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-11"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 11.43 -1.27 13.97 -1.27 0.15 21
+DS 13.97 -1.27 13.97 1.27 0.15 21
+DS 13.97 1.27 11.43 1.27 0.15 21
+DS 8.89 -1.27 11.43 -1.27 0.15 21
+DS 11.43 1.27 7.62 1.27 0.15 21
+DS 6.35 -1.27 8.89 -1.27 0.15 21
+DS 8.89 1.27 5.08 1.27 0.15 21
+DS 3.81 -1.27 6.35 -1.27 0.15 21
+DS 6.35 1.27 3.81 1.27 0.15 21
+DS 1.27 -1.27 3.81 -1.27 0.15 21
+DS 3.81 1.27 1.27 1.27 0.15 21
+DS -1.27 -1.27 1.27 -1.27 0.15 21
+DS 1.27 1.27 -1.27 1.27 0.15 21
+DS -3.81 -1.27 -1.27 -1.27 0.15 21
+DS -1.27 1.27 -3.81 1.27 0.15 21
+DS -6.35 -1.27 -3.81 -1.27 0.15 21
+DS -3.81 1.27 -6.35 1.27 0.15 21
+DS -8.89 -1.27 -6.35 -1.27 0.15 21
+DS -6.35 1.27 -8.89 1.27 0.15 21
+DS -11.684 -1.524 -14.224 -1.524 0.15 21
+DS -14.224 -1.524 -14.224 1.524 0.15 21
+DS -14.224 1.524 -11.684 1.524 0.15 21
+DS -8.89 1.27 -13.97 1.27 0.15 21
+DS -13.97 1.27 -13.97 -1.27 0.15 21
+DS -13.97 -1.27 -8.89 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+$EndPAD
+$EndMODULE strip-11
+$MODULE strip-12
+Po 0 0 0 15 56F6B057 00000000 ~~
+Li strip-12
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-12"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 12.7 -1.27 15.24 -1.27 0.15 21
+DS 15.24 -1.27 15.24 1.27 0.15 21
+DS 15.24 1.27 12.7 1.27 0.15 21
+DS 10.16 -1.27 12.7 -1.27 0.15 21
+DS 12.7 1.27 10.16 1.27 0.15 21
+DS 7.62 -1.27 10.16 -1.27 0.15 21
+DS 10.16 1.27 6.35 1.27 0.15 21
+DS 5.08 -1.27 7.62 -1.27 0.15 21
+DS 7.62 1.27 3.81 1.27 0.15 21
+DS 2.54 -1.27 5.08 -1.27 0.15 21
+DS 5.08 1.27 2.54 1.27 0.15 21
+DS 0 -1.27 2.54 -1.27 0.15 21
+DS 2.54 1.27 0 1.27 0.15 21
+DS -2.54 -1.27 0 -1.27 0.15 21
+DS 0 1.27 -2.54 1.27 0.15 21
+DS -5.08 -1.27 -2.54 -1.27 0.15 21
+DS -2.54 1.27 -5.08 1.27 0.15 21
+DS -7.62 -1.27 -5.08 -1.27 0.15 21
+DS -5.08 1.27 -7.62 1.27 0.15 21
+DS -10.16 -1.27 -7.62 -1.27 0.15 21
+DS -7.62 1.27 -10.16 1.27 0.15 21
+DS -12.954 -1.524 -15.494 -1.524 0.15 21
+DS -15.494 -1.524 -15.494 1.524 0.15 21
+DS -15.494 1.524 -12.954 1.524 0.15 21
+DS -10.16 1.27 -15.24 1.27 0.15 21
+DS -15.24 1.27 -15.24 -1.27 0.15 21
+DS -15.24 -1.27 -10.16 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -13.97 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "10" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "11" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 11.43 0
+$EndPAD
+$PAD
+Sh "12" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.97 0
+$EndPAD
+$EndMODULE strip-12
+$MODULE strip-2
+Po 0 0 0 15 56F6AE34 00000000 ~~
+Li strip-2
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-2"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS -0.254 -1.524 -2.794 -1.524 0.15 21
+DS -2.794 -1.524 -2.794 1.524 0.15 21
+DS -2.794 1.524 -0.254 1.524 0.15 21
+DS 2.54 -1.27 2.54 1.27 0.15 21
+DS 2.54 1.27 -2.54 1.27 0.15 21
+DS -2.54 1.27 -2.54 -1.27 0.15 21
+DS -2.54 -1.27 2.54 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$EndMODULE strip-2
+$MODULE strip-2-2mm-smd
+Po 0 0 0 15 58B56A80 00000000 ~~
+Li strip-2-2mm-smd
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.75 1 1 0 0.15 N I 21 N "strip-2-2mm-smd"
+T1 0 -5.75 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 -4.5 4 -4.5 0.1 21
+DS 4 -4.5 4 1.5 0.1 21
+DS 4 1.5 -4 1.5 0.1 21
+DS -4 1.5 -4 -4.5 0.1 21
+$PAD
+Sh "1" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.75
+$EndPAD
+$PAD
+Sh "2" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.75
+$EndPAD
+$PAD
+Sh "sh0" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.4 -1.5
+$EndPAD
+$PAD
+Sh "sh1" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.4 -1.5
+$EndPAD
+$EndMODULE strip-2-2mm-smd
+$MODULE strip-2-2mm-smd-h
+Po 0 0 0 15 59475059 00000000 ~~
+Li strip-2-2mm-smd-h
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.75 1 1 0 0.15 N I 21 N "strip-2-2mm-smd-h"
+T1 0 -5.75 1 1 0 0.15 N V 21 N "VAL**"
+DS -4.5 -5.75 4.5 -5.75 0.15 21
+DS 4.5 -5.75 4.5 4 0.15 21
+DS 4.5 4 -4.5 4 0.15 21
+DS -4.5 4 -4.5 -5.75 0.15 21
+$PAD
+Sh "1" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 2
+$EndPAD
+$PAD
+Sh "2" R 1 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 2
+$EndPAD
+$PAD
+Sh "sh0" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.4 -4
+$EndPAD
+$PAD
+Sh "sh1" R 1.6 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.4 -4
+$EndPAD
+$EndMODULE strip-2-2mm-smd-h
+$MODULE strip-2x2
+Po 0 0 0 15 56F829A4 00000000 ~~
+Li strip-2x2
+Sc 0
+AR 
+Op 0 0 0
+T0 0 3.81 0.7 0.7 0 0.14 N V 21 N "strip-2x2"
+T1 0 -3.81 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 2.54 -2.54 2.54 2.54 0.15 21
+DS -2.54 2.54 2.54 2.54 0.15 21
+DS -2.794 -0.254 -2.794 2.794 0.15 21
+DS -2.794 2.794 -0.254 2.794 0.15 21
+DS 2.54 2.54 -2.54 2.54 0.15 21
+DS -2.54 2.54 -2.54 -2.54 0.15 21
+DS -2.54 -2.54 2.54 -2.54 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 -1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 -1.27
+$EndPAD
+$EndMODULE strip-2x2
+$MODULE strip-2x2-smd
+Po 0 0 0 15 56F82B2E 00000000 ~~
+Li strip-2x2-smd
+Sc 0
+AR 
+Op 0 0 0
+T0 0 5.08 0.7 0.7 0 0.14 N V 21 N "strip-2x2-smd"
+T1 0 -5.08 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 2.54 -2.54 2.54 2.54 0.15 21
+DS -2.54 2.54 2.54 2.54 0.15 21
+DS -2.794 -0.254 -2.794 2.794 0.15 21
+DS -2.794 2.794 -0.254 2.794 0.15 21
+DS 2.54 2.54 -2.54 2.54 0.15 21
+DS -2.54 2.54 -2.54 -2.54 0.15 21
+DS -2.54 -2.54 2.54 -2.54 0.15 21
+$PAD
+Sh "1" R 1.27 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 2.9
+$EndPAD
+$PAD
+Sh "2" R 1.27 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 2.9
+$EndPAD
+$PAD
+Sh "3" R 1.27 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.27 -2.9
+$EndPAD
+$PAD
+Sh "4" R 1.27 2.2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.27 -2.9
+$EndPAD
+$EndMODULE strip-2x2-smd
+$MODULE strip-3
+Po 0 0 0 15 56F6AE9B 00000000 ~~
+Li strip-3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-3"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 1.27 -1.27 3.81 -1.27 0.15 21
+DS 3.81 -1.27 3.81 1.27 0.15 21
+DS 3.81 1.27 1.27 1.27 0.15 21
+DS -1.524 -1.524 -4.064 -1.524 0.15 21
+DS -4.064 -1.524 -4.064 1.524 0.15 21
+DS -4.064 1.524 -1.524 1.524 0.15 21
+DS 1.27 1.27 -3.81 1.27 0.15 21
+DS -3.81 1.27 -3.81 -1.27 0.15 21
+DS -3.81 -1.27 1.27 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$EndMODULE strip-3
+$MODULE strip-3-2mm-smd
+Po 0 0 0 15 58B56AC7 00000000 ~~
+Li strip-3-2mm-smd
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.75 1 1 0 0.15 N I 21 N "strip-3-2mm-smd"
+T1 0 -5.75 1 1 0 0.15 N V 21 N "VAL**"
+DS 5 2.5 -5 2.5 0.1 21
+DS -5 -4.5 5 -4.5 0.1 21
+DS 5 -4.5 5 2.5 0.1 21
+DS -5 -4.5 -5 2.5 0.1 21
+$PAD
+Sh "3" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2 0.75
+$EndPAD
+$PAD
+Sh "1" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2 0.75
+$EndPAD
+$PAD
+Sh "2" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0.75
+$EndPAD
+$PAD
+Sh "sh0" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.4 -1.5
+$EndPAD
+$PAD
+Sh "sh1" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.4 -1.5
+$EndPAD
+$EndMODULE strip-3-2mm-smd
+$MODULE strip-4
+Po 0 0 0 15 56F6AECC 00000000 ~~
+Li strip-4
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-4"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 2.54 -1.27 5.08 -1.27 0.15 21
+DS 5.08 -1.27 5.08 1.27 0.15 21
+DS 5.08 1.27 2.54 1.27 0.15 21
+DS 0 -1.27 2.54 -1.27 0.15 21
+DS 2.54 1.27 0 1.27 0.15 21
+DS -2.794 -1.524 -5.334 -1.524 0.15 21
+DS -5.334 -1.524 -5.334 1.524 0.15 21
+DS -5.334 1.524 -2.794 1.524 0.15 21
+DS 0 1.27 -5.08 1.27 0.15 21
+DS -5.08 1.27 -5.08 -1.27 0.15 21
+DS -5.08 -1.27 0 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$EndMODULE strip-4
+$MODULE strip-4-2mm-smd
+Po 0 0 0 15 58EA7B1A 00000000 ~~
+Li strip-4-2mm-smd
+Sc 0
+AR 
+Op 0 0 0
+T0 0 4.75 1 1 0 0.15 N I 21 N "strip-4-2mm-smd"
+T1 0 -5.75 1 1 0 0.15 N V 21 N "VAL**"
+DS 6 2.5 -6 2.5 0.1 21
+DS -6 -4.5 6 -4.5 0.1 21
+DS 6 -4.5 6 2.5 0.1 21
+DS -6 -4.5 -6 2.5 0.1 21
+$PAD
+Sh "3" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1 0.75
+$EndPAD
+$PAD
+Sh "1" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3 0.75
+$EndPAD
+$PAD
+Sh "2" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 0.75
+$EndPAD
+$PAD
+Sh "sh0" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -5.4 -1.5
+$EndPAD
+$PAD
+Sh "sh1" R 1.6 3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.4 -1.5
+$EndPAD
+$PAD
+Sh "4" R 1 5.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3 0.75
+$EndPAD
+$EndMODULE strip-4-2mm-smd
+$MODULE strip-5
+Po 0 0 0 15 56F6AF03 00000000 ~~
+Li strip-5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-5"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 3.81 -1.27 6.35 -1.27 0.15 21
+DS 6.35 -1.27 6.35 1.27 0.15 21
+DS 6.35 1.27 3.81 1.27 0.15 21
+DS 1.27 -1.27 3.81 -1.27 0.15 21
+DS 3.81 1.27 1.27 1.27 0.15 21
+DS -1.27 -1.27 1.27 -1.27 0.15 21
+DS 1.27 1.27 -1.27 1.27 0.15 21
+DS -4.064 -1.524 -6.604 -1.524 0.15 21
+DS -6.604 -1.524 -6.604 1.524 0.15 21
+DS -6.604 1.524 -4.064 1.524 0.15 21
+DS -1.27 1.27 -6.35 1.27 0.15 21
+DS -6.35 1.27 -6.35 -1.27 0.15 21
+DS -6.35 -1.27 -1.27 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$EndMODULE strip-5
+$MODULE strip-6
+Po 0 0 0 15 56F6AF4A 00000000 ~~
+Li strip-6
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-6"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 5.08 -1.27 7.62 -1.27 0.15 21
+DS 7.62 -1.27 7.62 1.27 0.15 21
+DS 7.62 1.27 5.08 1.27 0.15 21
+DS 2.54 -1.27 5.08 -1.27 0.15 21
+DS 5.08 1.27 2.54 1.27 0.15 21
+DS 0 -1.27 2.54 -1.27 0.15 21
+DS 2.54 1.27 0 1.27 0.15 21
+DS -2.54 -1.27 0 -1.27 0.15 21
+DS 0 1.27 -2.54 1.27 0.15 21
+DS -5.334 -1.524 -7.874 -1.524 0.15 21
+DS -7.874 -1.524 -7.874 1.524 0.15 21
+DS -7.874 1.524 -5.334 1.524 0.15 21
+DS -2.54 1.27 -7.62 1.27 0.15 21
+DS -7.62 1.27 -7.62 -1.27 0.15 21
+DS -7.62 -1.27 -2.54 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$EndMODULE strip-6
+$MODULE strip-7
+Po 0 0 0 15 56F6AF69 00000000 ~~
+Li strip-7
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-7"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 6.35 -1.27 8.89 -1.27 0.15 21
+DS 8.89 -1.27 8.89 1.27 0.15 21
+DS 8.89 1.27 6.35 1.27 0.15 21
+DS 3.81 -1.27 6.35 -1.27 0.15 21
+DS 6.35 1.27 3.81 1.27 0.15 21
+DS 1.27 -1.27 3.81 -1.27 0.15 21
+DS 3.81 1.27 1.27 1.27 0.15 21
+DS -1.27 -1.27 1.27 -1.27 0.15 21
+DS 1.27 1.27 -1.27 1.27 0.15 21
+DS -3.81 -1.27 -1.27 -1.27 0.15 21
+DS -1.27 1.27 -3.81 1.27 0.15 21
+DS -6.604 -1.524 -9.144 -1.524 0.15 21
+DS -9.144 -1.524 -9.144 1.524 0.15 21
+DS -9.144 1.524 -6.604 1.524 0.15 21
+DS -3.81 1.27 -8.89 1.27 0.15 21
+DS -8.89 1.27 -8.89 -1.27 0.15 21
+DS -8.89 -1.27 -3.81 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$EndMODULE strip-7
+$MODULE strip-8
+Po 0 0 0 15 56F6AF8C 00000000 ~~
+Li strip-8
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-8"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 7.62 -1.27 10.16 -1.27 0.15 21
+DS 10.16 -1.27 10.16 1.27 0.15 21
+DS 10.16 1.27 7.62 1.27 0.15 21
+DS 5.08 -1.27 7.62 -1.27 0.15 21
+DS 7.62 1.27 5.08 1.27 0.15 21
+DS 2.54 -1.27 5.08 -1.27 0.15 21
+DS 5.08 1.27 2.54 1.27 0.15 21
+DS 0 -1.27 2.54 -1.27 0.15 21
+DS 2.54 1.27 0 1.27 0.15 21
+DS -2.54 -1.27 0 -1.27 0.15 21
+DS 0 1.27 -2.54 1.27 0.15 21
+DS -5.08 -1.27 -2.54 -1.27 0.15 21
+DS -2.54 1.27 -5.08 1.27 0.15 21
+DS -7.874 -1.524 -10.414 -1.524 0.15 21
+DS -10.414 -1.524 -10.414 1.524 0.15 21
+DS -10.414 1.524 -7.874 1.524 0.15 21
+DS -5.08 1.27 -10.16 1.27 0.15 21
+DS -10.16 1.27 -10.16 -1.27 0.15 21
+DS -10.16 -1.27 -5.08 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$EndMODULE strip-8
+$MODULE strip-9
+Po 0 0 0 15 56F6AFB1 00000000 ~~
+Li strip-9
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.54 0.7 0.7 0 0.14 N V 21 N "strip-9"
+T1 0 -2.54 0.7 0.7 0 0.14 N V 21 N "VAL**"
+DS 8.89 -1.27 11.43 -1.27 0.15 21
+DS 11.43 -1.27 11.43 1.27 0.15 21
+DS 11.43 1.27 7.62 1.27 0.15 21
+DS 6.35 -1.27 8.89 -1.27 0.15 21
+DS 8.89 1.27 6.35 1.27 0.15 21
+DS 3.81 -1.27 6.35 -1.27 0.15 21
+DS 6.35 1.27 3.81 1.27 0.15 21
+DS 1.27 -1.27 3.81 -1.27 0.15 21
+DS 3.81 1.27 1.27 1.27 0.15 21
+DS -1.27 -1.27 1.27 -1.27 0.15 21
+DS 1.27 1.27 -1.27 1.27 0.15 21
+DS -3.81 -1.27 -1.27 -1.27 0.15 21
+DS -1.27 1.27 -3.81 1.27 0.15 21
+DS -6.35 -1.27 -3.81 -1.27 0.15 21
+DS -3.81 1.27 -6.35 1.27 0.15 21
+DS -9.144 -1.524 -11.684 -1.524 0.15 21
+DS -11.684 -1.524 -11.684 1.524 0.15 21
+DS -11.684 1.524 -9.144 1.524 0.15 21
+DS -6.35 1.27 -11.43 1.27 0.15 21
+DS -11.43 1.27 -11.43 -1.27 0.15 21
+DS -11.43 -1.27 -6.35 -1.27 0.15 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.16 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.16 0
+$EndPAD
+$EndMODULE strip-9
+$MODULE strip4-pth-2mm
+Po 0 0 0 15 58B58D5C 00000000 ~~
+Li strip4-pth-2mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 2.75 1 1 0 0.15 N I 21 N "strip4-pth-2mm"
+T1 0 -2 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 -1 4.5 -1 0.1 21
+DS 4.5 -1 4.5 1 0.1 21
+DS 4.5 1 -4 1 0.1 21
+DS -4 1 -4 -1 0.1 21
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "4" C 1.4 1.4 0 0 0
+Dr 0.9 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$EndMODULE strip4-pth-2mm
+$MODULE usb-a-vertical
+Po 0 0 0 15 58B5BB55 00000000 ~~
+Li usb-a-vertical
+Sc 0
+AR 
+Op 0 0 0
+T0 0 6 1 1 0 0.15 N I 21 N "usb-a-vertical"
+T1 0 -2.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -7.5 -1.5 7.5 -1.5 0.1 21
+DS 7.5 -1.5 7.5 4.5 0.1 21
+DS 7.5 4.5 -7.5 4.5 0.1 21
+DS -7.5 4.5 -7.5 -1.5 0.1 21
+$PAD
+Sh "1" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 0
+$EndPAD
+$PAD
+Sh "2" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "3" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "4" C 1.6 1.6 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 2.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.57 2.71
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 2.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.57 2.71
+$EndPAD
+$EndMODULE usb-a-vertical
+$MODULE usb-mini-b-vertical
+Po 0 0 0 15 58B5BF5F 00000000 ~~
+Li usb-mini-b-vertical
+Sc 0
+AR 
+Op 0 0 0
+T0 0 5 1 1 0 0.15 N I 21 N "usb-mini-b-vertical"
+T1 0 -3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS 5 4 5 -1.5 0.1 21
+DS 5 -1.5 -5 -1.5 0.1 21
+DS -5 -1.5 -5 4 0.1 21
+DS -5 4 5 4 0.1 21
+$PAD
+Sh "1" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.6 -1
+$EndPAD
+$PAD
+Sh "2" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.8 -1
+$EndPAD
+$PAD
+Sh "3" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1
+$EndPAD
+$PAD
+Sh "4" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.8 -1
+$EndPAD
+$PAD
+Sh "5" R 0.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.6 -1
+$EndPAD
+$PAD
+Sh "6" R 3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.75 0.4
+$EndPAD
+$PAD
+Sh "7" R 3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 0.4
+$EndPAD
+$PAD
+Sh "" C 1.1 1.1 0 0 0
+Dr 1.05 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 3 2.7
+$EndPAD
+$PAD
+Sh "" C 1.1 1.1 0 0 0
+Dr 1.05 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -3 2.7
+$EndPAD
+$EndMODULE usb-mini-b-vertical
+$EndLIBRARY
