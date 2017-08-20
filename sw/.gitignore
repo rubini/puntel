@@ -1,0 +1,6 @@
+*.map
+*.o
+.*.cmd
+*~
+*.bin
+lds/lpc-*.lds
