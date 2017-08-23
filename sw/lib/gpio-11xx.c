@@ -77,8 +77,13 @@ void gpio_dir(int gpio, int output, int value)
 
 int gpio_dir_af(int gpio, int output, int value, int afnum)
 {
+	int pull;
+
 	if (gpio > GPIO_MAX || gpio < 0)
 		return -1;
+
+	pull = afnum & (GPIO_AF_PULLDOWN | GPIO_AF_PULLUP);
+	afnum &= ~pull;
 
 	if (afnum < 2) { /* if weird bit, swap AF0 and AF1 */
 		int port = GPIO_PORT(gpio);
@@ -88,7 +93,7 @@ int gpio_dir_af(int gpio, int output, int value, int afnum)
 	}
 	/* First set dir to prevent glitches when moving to AF0 */
 	gpio_dir(gpio, output, value);
-	writel(afnum | 0x80, /* This 0x80 for "digital mode" */
+	writel(afnum | pull| 0x80, /* This 0x80 for "digital mode" */
 	       __GPIO_CFG_BASE + gpio_addr[gpio]);
 	/* Finally, dir again to force value when moving to gpio-out */
 	gpio_dir(gpio, output, value);
